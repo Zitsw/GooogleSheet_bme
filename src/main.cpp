@@ -1,8 +1,4 @@
-/*
- * Rui Santos 
- * Complete Project Details https://randomnerdtutorials.com
- */
- 
+
 #include <WiFi.h>
 #include <DHT.h>
 void initWifi();
@@ -15,8 +11,8 @@ DHT dht(DHTPIN, DHT22);
 
 
 // Replace with your SSID and Password
-const char* ssid     = "HUAWEI-UyM4";
-const char* password = "48575443B2AA7B9A";
+const char* ssid     = ""; // wifi id
+const char* password = ""; //wifi pass
 
 // Replace with your unique IFTTT URL resource
 const char* resource = "/trigger/bme280_readings/with/key/dAc5FtvA1Y5P5a4ZPvKs5d";
